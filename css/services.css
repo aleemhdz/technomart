@@ -1,0 +1,786 @@
+font-face {
+	font-family: Cuprum;
+	src: url('cuprum.ttf');
+} 
+
+
+.services{
+position: absolute;
+width: 1200px;
+height: 522px;
+left: 0px;
+top: 1833px;
+	background-color: #F1F5F7;;
+}
+
+.servisy{
+	width: 100%;
+	height: 104px;
+	margin: 0px;
+
+}
+.servisy1{
+	position: relative;
+width: 107px;
+height: 30px;
+left: 130px;
+margin:0px;
+top: 64px;
+
+/* Заголовок 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+}
+
+.horosh{
+	position: relative;
+width: 100%;
+height: 88px;
+}
+.horosh1{
+	position: relative;
+width: 394px;
+height: 49px;
+left: 130px;
+top: 25px;
+
+/* Параграф 1 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000;
+}
+
+.d1{
+	position: relative;
+width: 240px;
+height: 61px;
+left: 130px;
+top: 70px;
+
+background: #32425C;
+box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+}
+
+.d1 div{
+ position: relative;
+ color: #ffff;
+ left: 22px;		
+
+}
+
+.d2{
+	position: relative;
+width: 240px;
+height: 61px;
+left: 130px;
+top: 70px;
+
+background: #32425C;
+box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+}
+
+.d2 div{
+ position: relative;
+ color: #ffff;
+ left: 22px;		
+
+}
+
+.d3{
+position: relative;
+width: 240px;
+height: 61px;
+left: 130px;
+top: 70px;
+
+background: #32425C;
+box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+}
+
+.d3 div{
+ position: relative;
+ color: #ffff;
+ left: 22px;
+	
+
+}
+
+
+
+
+	.d1:hover
+{
+	background:#ffff;
+	transition: 0.3s;
+}
+	.d1 a:hover
+	{
+		color: #32425C;
+	}
+
+.d2:hover{
+	background:#ffff;
+	transition: 0.3s;
+}
+
+.d3:hover{
+	background:#ffff;
+	transition: 0.3s;
+}
+
+
+
+
+/*Компания */
+
+.kontakty{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+position: absolute;
+width: 940px;
+height: 356px;
+left: 130px;
+top: 2425px;
+/*
+border:1px solid gray;
+box-sizing:border-box; */
+}
+
+
+.prblock{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	/*background: gray; */
+/*	float: left;*/
+
+	display: inline-block;
+}
+
+
+
+.komptex{
+	position: relative;
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.nastoyash{
+	position: relative;
+	margin-top: 24px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000
+}
+
+.spisok	{
+	list-style-type: none;
+	list-style-image: url(dlyali.png);
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: black;
+text-decoration: none;
+line-height: 2.2;
+
+}
+
+.spisok a{
+	color:black;
+}
+
+.podrobno{
+		position: relative;
+    width: 220px;
+    height: 38px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #EE3643;
+}
+
+.podrobno div{
+	font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+    width: 192px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.podrobno:hover{
+	background: #A62000;
+transition: 0.3s;
+}
+
+
+.lblock{
+	position: relative;
+	width: 300px;
+	height: 100%;
+	/*background: #32425C; */
+	display: inline-block;
+	
+}
+
+.lblock1{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #000000
+}
+
+.lblock2{
+	position: relative;
+	margin-top: 24px;
+	width: 181px;
+	height: 49px;
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000;
+}
+
+
+.lblock3 div{
+	position: relative;
+	width: 300px;
+	height: 158px;
+	
+	margin-top: 32px;
+}
+
+
+.lblock4{
+		position: relative;
+    width: 100%;
+    height: 38px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #EE3643;
+
+    margin-top: 25px;
+
+}
+
+.lblock4 div{
+	font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+    width: 192px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lblock4:hover{
+	background: #A62000;
+transition: 0.3s;
+}
+
+
+
+footer{
+	position: absolute;
+width: 1200px;
+height: 300px;
+left: 0px;
+top: 2851px;
+background:#32425C;
+}
+
+.footertop{
+	position: relative;
+	width: 100%;
+	height: 80px;
+/*	border:1px solid red; */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footertopr{
+position: relative;
+	width: 480px;
+	height: 100%;
+/*	background: gray;	*/
+
+
+}
+
+.footertopl{
+	position: relative;
+	width: 720px;
+	height: 35px;
+	margin-top: 40px;
+	margin-bottom: auto;
+/*	background: green;	*/
+	box-sizing: border-box;
+
+}
+
+.knopka{
+	width: 220px;
+	height: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background: #EE3643;
+box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.ultop{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-around;
+
+
+}
+.ultop a{
+
+	
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: #F1F5F7;
+}
+
+.ultop a:hover{
+	color:green;
+	transition: 0.3s;
+}
+
+
+
+
+.footermid{
+	position: relative;
+	width: 100%;
+	height: 120px;
+/*	border:1px solid red; */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footermidr{
+position: relative;
+	width: 480px;
+	height: 100%;
+	/*background: green;	*/
+text-align: center;
+
+}
+
+.footermidr div{
+	margin-left: 133px;
+	margin-top: 22px;
+	width: 321px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+color: #F3F7F9;
+text-align: center;
+}
+
+.footermidl{
+	margin-top: 40px;
+	position: relative;
+	width: 720px;
+	height: 40px;
+	/*background: gray; */
+
+
+}
+
+.ulmid{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.ulmid a{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFD180;
+
+}
+
+.footerbot{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100px;
+	background: #293449;
+}
+
+
+.footerbotr{
+
+	position: relative;
+	width: 532px;
+	height: 100%;
+/*	background: yellow; */
+}
+
+
+.footerbotm{
+
+	position: relative;
+	width: 136px;
+	height: 100%;
+
+}
+
+.footerbotl{
+
+	position: relative;
+	width:  532px;
+	height: 100%;
+/*	background: gray; */
+
+}
+
+.footericon{
+	position: relative;
+	width: 100%;
+	height: 44px;
+/*	background: gray; */
+	top: 28px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footericon a:hover{
+	opacity: 0.3;
+	transition: 0.3s;
+}
+
+.footerbotr div{
+	margin-left: 133px;
+	margin-top: 22px;
+	width: 321px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #F3F7F9;
+text-align: center;
+}
+
+.ulbot{
+		display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+
+
+}
+
+.ulbot p{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.ulbot a{
+	color: #FFD180;
+}
+
+.techbot{
+	position: relative;
+	width: 128;
+	height: 23px;
+	margin-left: 41px;
+	top: 20px;
+}
+
+.servicebot{
+	position: relative;
+	width: 100%;
+	height: 330px;
+/*	background: white; */
+	display: flex;
+	flex-direction: row;
+
+}
+
+.servright{
+	position: relative;
+	width: 370px;
+	height: 330px;
+	/* background: gray; */
+}
+
+.ulserv{
+	list-style-type: none; 
+	width: 240px;
+	height: 60px;
+	padding-left: 130px;
+
+}
+
+
+.ulserv a:link, .ulserv a:visited{
+
+	width: 240px;
+	height: 60px;
+	text-decoration: none;
+	color: white;
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+
+	background-color: #32425C;
+	font-weight: bold
+
+
+}
+.ulserv a:hover{
+	background-color: #fff;
+	color: #32425C;
+	transition: 0.4s;
+}
+
+.ulserv a{
+	left: 20px;
+
+	box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+}
+
+
+.ulserv div{
+	margin-left: 20px;
+
+}
+
+.servleft{
+	position: relative;
+	width: 830px;
+	height: 100%;
+	/*background: white; */
+}
+
+
+.jsdostavka{
+	position: relative;
+	width: 100%;
+	height: 100%;
+/*	background: black; */
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.jsdostavka1{
+	position: relative;
+	width: 305px;
+	height: 100%;
+/*	background: gray; */
+
+	
+}
+
+.jsdostavka2{
+	position: relative;
+	width:468px;
+	height: 261px;
+
+/*	background: white; */
+}
+
+
+.pdost1{
+	position: relative;
+	height: 30px;
+width: 305px;
+left: 80px;
+top: 50px;
+
+
+/* Заголовок 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #32425C;
+}
+
+
+.pdost2{
+	position: relative;
+
+	height: 99px;
+width: 270px;
+margin-left: auto;
+margin-right: auto;
+top:90px;
+
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000;
+}

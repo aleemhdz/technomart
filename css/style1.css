@@ -1,0 +1,565 @@
+font-face {
+	font-family: Cuprum;
+	src: url('cuprum.ttf');
+} 
+
+a{
+	text-decoration: none;
+}
+.group11{
+	position: absolute;
+width: 940px;
+height: 409px;
+left: 130px;
+top: 379px;
+
+}
+
+.tipaheader{
+
+	position: relative;
+	width: 100%;
+	height: 123px;
+	/* background: red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.samiybolshoy{
+	position: relative;
+	width: 620px;
+	height: 266px;
+
+	background: url(muzhik.png);
+	
+	clear: right;
+	display: inline-block;
+	margin-top: 20px;
+
+}
+
+.samiybolshoy1{
+	position: relative;
+width: 100%;
+height: 104px;
+
+
+background: rgba(0, 0, 0, 0.25);
+}
+
+.perf{
+	position: relative;
+width: 240px;
+height: 36px;
+left: 24px;
+top: 23px;
+}
+
+
+.perf p{
+	position: relative;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+/*line-height: 36px; */
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.sprava{
+	position: relative;
+	width: 300px;
+	height: 266px;
+	/*background: gray; */
+	/*opacity: 0.5; */
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+
+.objmaterialy{
+position: relative;
+width: 300px;
+height: 123px;
+/*left: 130px;*/
+/*top: 379px; */
+/*display: inline-block; */
+clear:right;
+background: #FFBF47;
+}
+
+.objmaterialy:hover{
+	opacity:0.8;
+	transition: 0.3s;
+}
+
+.formaterialy{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float:left;
+}
+
+.foricon1{
+	width:40%;
+	height: 100%;
+	display:inline-block;
+
+
+}
+
+.xasd{
+position: relative;
+width: 135px;
+height: 38px;
+left: 23px;
+margin-top: 34px;
+
+
+/* White */
+
+background: #FFFFFF;
+/*mix-blend-mode: normal;*/
+opacity: 0.3;
+
+
+/* Текст на кнопке */
+
+}
+
+a.nalub {
+
+position: relative;
+left: 23px;
+right: 24px;
+top: 10px;
+bottom: 10px; 
+
+/* Текст на кнопке */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: black;
+
+
+}
+													
+
+
+a.materialy{
+
+position: relative;
+left: 23px;
+top: 20px; 
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+z-index: 9999;
+}
+
+.icon1{
+position: relative;
+	display: block;
+
+margin-top: 31px;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+
+}
+
+/*инструменты*/
+
+.objinstrumenty{
+	clear: right;
+	/*display: inline-block;*/
+	position: relative;
+width: 300px;
+height: 123px;
+/*left: 20px; */
+/*top: 379px; */
+
+background: #3BBCE3;
+}
+
+
+.foristrumenty{
+
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float:left;
+}
+
+.foricon2{
+	width:40%;
+	height: 100%;
+	display:inline-block;
+
+
+}
+
+.icon2{
+	position: relative;
+	display: block;
+
+margin-top: 31px;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+}
+
+
+a.istrumenty{
+	position: relative;
+    left: 23px;
+    top: 20px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 9999;
+}
+
+
+
+.dasd{
+	position: relative;
+    width: 135px;
+    height: 38px;
+    left: 23px;
+    margin-top: 34px;
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.3;
+}
+
+a.navs{
+	position: relative;
+    left: 23px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.objtexnika{
+/*	float: right; */
+    /*display: inline-block;*/
+    position: relative;
+    width: 300px;
+    height: 123px;
+  /* left: 40px; */
+    /* top: 379px; */
+    background: #DC91D8;
+}
+
+.fortexnika{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float:left;
+}
+
+.foricon3{
+	width:40%;
+	height: 100%;
+	display:inline-block;
+}
+.agfuib{
+position: relative;
+    width: 135px;
+    height: 38px;
+    left: 23px;
+    margin-top: 34px;
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.3;
+
+}
+
+.agfuib a{
+
+	    position: relative;
+    left: 30px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000;
+
+}
+
+.texnika{
+position: relative;
+    left: 23px;
+    top: 20px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 9999;
+
+}
+
+.dlyaflexa{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+}
+
+/*скидки*/
+.objskidki{
+	position: relative;
+width: 300px;
+height: 123px;
+
+
+background: #8ED78F;
+}
+
+.forskidki{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float: left;
+	
+}
+
+
+.foricon4{
+		width:40%;
+	height: 100%;
+	display:inline-block;
+}
+
+.foricon4 img{
+	position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+
+.skidki{
+position: relative;
+width: 118px;
+height: 30px;
+left: 20px;
+top: 23px;
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+.ahhgfaf{
+	position: relative;
+    width: 135px;
+    height: 38px;
+    left: 23px;
+    margin-top: 34px;
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.3;
+}
+
+
+.ahhgfaf a{
+	 position: relative;
+    left: 22px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000;
+}
+
+
+/* доставка*/
+.objdostavka{
+	position: relative;
+width: 300px;
+height: 123px;
+margin-top: 20px;
+background: #FFC047;
+
+}
+
+.fordostavka{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float: left;
+}
+
+.foricon5{
+ width: 40%;
+ height: 100%;
+ display: inline-block;
+}
+
+.foricon5 img{
+	position: relative;
+    display: block;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: 31px;
+    vertical-align: middle;
+}
+
+.dostavka{
+	
+position: relative;
+width: 90px;
+height: 30px;
+left:24px;
+top: 23px;
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+.weoigh{
+position: relative;
+width: 135px;
+height: 38px;
+left: 23px;
+margin-top: 34px;
+/* White */
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+
+.weoigh a{
+	 position: relative;
+    left: 36px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000;
+}
+
+.icon3{
+	position: relative;
+    display: block;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: 31px;
+    vertical-align: middle;
+}
