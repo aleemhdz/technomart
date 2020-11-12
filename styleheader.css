@@ -1,0 +1,2712 @@
+font-face {
+	font-family: Cuprum;
+	src: url('cuprum.ttf');
+} 
+
+a{
+	text-decoration: none;
+}
+
+
+header{
+	position: absolute;
+width: 1200px; 
+height: 320px;
+
+background-color: #F1F5F7;;
+}
+
+.shapka{
+	position: relative;
+	width: 100%;
+	height: 42px;
+	background:#293449;
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+.obj90{
+	position: relative;
+margin-left: 130px;
+width: 220px;
+height: 47px;
+background: #EE3643;
+box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.mid{
+	position: relative;
+	width: 940px;
+	height: 160px;
+/*	background: gray; */
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+.midr{
+	position: relative;
+	width: 310px;
+	height: 100%;
+/*	border: 1px solid white;
+	box-sizing: border-box; */
+}
+
+
+.midm{
+	position: relative;
+	width: 320px;
+	height: 100%;
+	/*border: 1px solid black;
+	box-sizing: border-box; */
+}
+
+
+.midl{
+	position: relative;
+	width: 310px;
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+}
+
+.intmag{
+	position: relative;
+	height: 71px;
+	width: 197px;
+	left: 20px;
+	top: 37px;
+
+
+
+
+font-family: Cuprum;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+/* or 144% */
+
+display: flex;
+align-items: center;
+
+color: #EE3643;
+
+}
+
+
+.obj80 {
+    position: relative;
+  	height: 45px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	top:57.5px;
+
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+
+.address{
+	position: relative;
+
+	top:45px ;
+	left: 35px;
+
+
+/* Подпись */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #32425C;
+}
+
+
+.nomer{
+	
+	text-decoration: none;
+position: relative;
+
+
+/*padding: 74px 45px 7px 8px; */
+
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+color: #EE3643;
+
+}
+
+
+.obj80dr div{
+	text-decoration: none;
+	position: relative;
+left: 24px;
+right: 24px;
+top: 12px;
+bottom: 12px;
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 21px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+
+
+.obj80dr{
+
+	top: 57.5px;
+position: relative;
+width: 150px;
+height: 45px;
+background: #FFFFFF;
+}
+
+.obj80dr:hover{
+	cursor: pointer;
+	background: #FFEBA8;
+	transition: 0.4s;
+}
+
+.midvxod{
+
+	position: relative;
+width: 150px;
+height: 45px;
+top: 57.5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+
+.vxod{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 21px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.podmenu{
+	position: relative;
+	height: 60px;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	background: #32425C;
+	box-shadow: inset 0px -5px 0px #293449;
+}
+
+
+.ulpodmenu{
+	padding: 0px;
+	position: relative;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+}
+
+.ulpodmenu li{
+	
+		margin-right: 30px;
+		margin-left: 30px;
+}
+.ulpodmenu a{
+	/* Параграф 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+/*flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+margin: 56px 0px; */
+}
+
+.ulpodmenu a:hover{
+	color: #57CB33;
+	 transition: 0.3s;
+}
+
+
+.poisk{
+	position: relative;
+	width: 200px;
+	height: 100%;
+/*	background: green; */
+	display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+}
+
+
+.poisk a{
+	position: relative;
+
+/* Параграф 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.zakladki{
+	position: relative;
+	width: 100px;
+	height: 100%;
+	margin-left: 170px;
+/*	background: green; */
+	display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+}
+
+.zakladki a{
+	position: relative;
+
+/* Параграф 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.korzina{
+	position: relative;
+	width: 100px;
+	height: 100%;
+/*	background: green; */
+	display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+}
+
+.korzina a{
+	position: relative;
+
+/* Параграф 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+.objgreen{
+	position: relative;
+	width: 150px;
+	height: 42px;
+
+
+    background: #63A63E;
+}
+
+
+.objgreen div {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    left: 19px;
+    right: 12px;
+    top: 9px;
+    bottom: 9px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.ilogin{
+	position: relative;
+	height: 17px;
+	width: 20px;
+	margin-left: 9px;
+	margin-right: 9px;
+	top: 13px;
+
+
+
+}
+.iphone{
+	position: relative;
+height: 19px;
+width: 19px;
+margin-left: 9px;
+margin-right: 9px;
+top: 101px;
+border-radius: 0px;
+
+top: 10px;
+bottom: 15px;
+}
+
+.isearch{
+
+	position: relative;
+height: 17px;
+width: 17px;
+margin-left: 17px;
+margin-right: 8px;
+top: 12px;
+
+
+
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+
+.icart{
+	
+position: relative;
+
+height: 15px;
+width: 15px;
+margin-left: 9px;
+margin-right: 9px;
+top: 13px;
+border-radius: 0px;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+
+.ibookmark{
+	position: relative;
+height: 16px;
+width: 14px;
+margin-left: 5px;
+margin-right: 9px;
+top: 13px;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+
+.tech90{
+	position: relative;
+	width: 108px;
+	height: 18px;
+	margin-left: 45px;
+	margin-top: 14px;
+
+}
+
+font-face {
+	font-family: Cuprum;
+	src: url('cuprum.ttf');
+} 
+
+a{
+	text-decoration: none;
+}
+.group11{
+	position: absolute;
+width: 940px;
+height: 409px;
+left: 130px;
+top: 379px;
+
+}
+
+.tipaheader{
+
+	position: relative;
+	width: 100%;
+	height: 123px;
+	/* background: red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.samiybolshoy{
+	position: relative;
+	width: 620px;
+	height: 266px;
+
+	background: url(muzhik.png);
+	
+	clear: right;
+	display: inline-block;
+	margin-top: 20px;
+
+}
+
+.samiybolshoy1{
+	position: relative;
+width: 100%;
+height: 104px;
+
+
+background: rgba(0, 0, 0, 0.25);
+}
+
+.perf{
+	position: relative;
+width: 240px;
+height: 36px;
+left: 24px;
+top: 23px;
+}
+
+
+.perf p{
+	position: relative;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+/*line-height: 36px; */
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.sprava{
+	position: relative;
+	width: 300px;
+	height: 266px;
+	/*background: gray; */
+	/*opacity: 0.5; */
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+
+.objmaterialy{
+position: relative;
+width: 300px;
+height: 123px;
+/*left: 130px;*/
+/*top: 379px; */
+/*display: inline-block; */
+clear:right;
+background: #FFBF47;
+}
+
+.objmaterialy:hover{
+	opacity:0.8;
+	transition: 0.3s;
+}
+
+.formaterialy{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float:left;
+}
+
+.foricon1{
+	width:40%;
+	height: 100%;
+	display:inline-block;
+
+
+}
+
+.xasd{
+position: relative;
+width: 135px;
+height: 38px;
+left: 23px;
+margin-top: 34px;
+
+
+/* White */
+
+background: #FFFFFF;
+/*mix-blend-mode: normal;*/
+opacity: 0.3;
+
+
+/* Текст на кнопке */
+
+}
+
+a.nalub {
+
+position: relative;
+left: 23px;
+right: 24px;
+top: 10px;
+bottom: 10px; 
+
+/* Текст на кнопке */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: black;
+
+
+}
+													
+
+
+a.materialy{
+
+position: relative;
+left: 23px;
+top: 20px; 
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+z-index: 9999;
+}
+
+.icon1{
+position: relative;
+	display: block;
+
+margin-top: 31px;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+
+}
+
+/*инструменты*/
+
+.objinstrumenty{
+	clear: right;
+	/*display: inline-block;*/
+	position: relative;
+width: 300px;
+height: 123px;
+/*left: 20px; */
+/*top: 379px; */
+
+background: #3BBCE3;
+}
+
+
+.foristrumenty{
+
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float:left;
+}
+
+.foricon2{
+	width:40%;
+	height: 100%;
+	display:inline-block;
+
+
+}
+
+.icon2{
+	position: relative;
+	display: block;
+
+margin-top: 31px;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+}
+
+
+a.istrumenty{
+	position: relative;
+    left: 23px;
+    top: 20px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 9999;
+}
+
+
+
+.dasd{
+	position: relative;
+    width: 135px;
+    height: 38px;
+    left: 23px;
+    margin-top: 34px;
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.3;
+}
+
+a.navs{
+	position: relative;
+    left: 23px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.objtexnika{
+/*	float: right; */
+    /*display: inline-block;*/
+    position: relative;
+    width: 300px;
+    height: 123px;
+  /* left: 40px; */
+    /* top: 379px; */
+    background: #DC91D8;
+}
+
+.fortexnika{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float:left;
+}
+
+.foricon3{
+	width:40%;
+	height: 100%;
+	display:inline-block;
+}
+.agfuib{
+position: relative;
+    width: 135px;
+    height: 38px;
+    left: 23px;
+    margin-top: 34px;
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.3;
+
+}
+
+.agfuib a{
+
+	    position: relative;
+    left: 30px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000;
+
+}
+
+.texnika{
+position: relative;
+    left: 23px;
+    top: 20px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 9999;
+
+}
+
+.dlyaflexa{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+}
+
+/*скидки*/
+.objskidki{
+	position: relative;
+width: 300px;
+height: 123px;
+
+
+background: #8ED78F;
+}
+
+.forskidki{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float: left;
+	
+}
+
+
+.foricon4{
+		width:40%;
+	height: 100%;
+	display:inline-block;
+}
+
+.foricon4 img{
+	position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+
+.skidki{
+position: relative;
+width: 118px;
+height: 30px;
+left: 20px;
+top: 23px;
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+.ahhgfaf{
+	position: relative;
+    width: 135px;
+    height: 38px;
+    left: 23px;
+    margin-top: 34px;
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.3;
+}
+
+
+.ahhgfaf a{
+	 position: relative;
+    left: 22px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000;
+}
+
+
+/* доставка*/
+.objdostavka{
+	position: relative;
+width: 300px;
+height: 123px;
+margin-top: 20px;
+background: #FFC047;
+
+}
+
+.fordostavka{
+	width: 60%;
+	height:100%;
+	/*background: #FFFFFF;*/
+	/*opacity: 0.3; */
+	display: inline-block;
+	float: left;
+}
+
+.foricon5{
+ width: 40%;
+ height: 100%;
+ display: inline-block;
+}
+
+.foricon5 img{
+	position: relative;
+    display: block;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: 31px;
+    vertical-align: middle;
+}
+
+.dostavka{
+	
+position: relative;
+width: 90px;
+height: 30px;
+left:24px;
+top: 23px;
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+.weoigh{
+position: relative;
+width: 135px;
+height: 38px;
+left: 23px;
+margin-top: 34px;
+/* White */
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+
+.weoigh a{
+	 position: relative;
+    left: 36px;
+    right: 24px;
+    top: 10px;
+    bottom: 10px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000;
+}
+
+.icon3{
+	position: relative;
+    display: block;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: 31px;
+    vertical-align: middle;
+}
+
+
+font-face {
+	font-family: Cuprum;
+	src: url('cuprum.ttf');
+} 
+
+
+
+.obolochka{
+	position: absolute;
+width: 940px;
+height: 427px;
+left: 130px;
+top: 847px;
+
+
+
+}
+
+
+.head_ob {
+
+position: relative;
+width: 940px;
+height: 89px;
+background: #e0cfc2;
+}
+
+
+.head_ob a.eldm{
+
+	position: relative;
+	width: 264px; 
+height: 30px;
+left: 26px;
+top: 29px;
+
+/* Заголовок 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #32425C;
+}
+
+
+.emae{
+	position: relative;
+width: 192px;
+height: 38px;
+left: 734px;
+top: -5px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+	background: #EE3643;
+
+}
+
+.emae div{
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: white; 
+
+margin-left: auto;
+margin-right: auto;
+
+/*display: inline-block; */
+
+width: 192px;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.emae:hover{
+ background: #A62000;
+transition: 0.3s;
+
+
+}
+
+.dreli{
+	    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 318px;
+    margin-top: 20px;
+   
+}
+
+.bfg900{
+position: relative;
+width: 220px;
+height: 318px;
+/*left: 0px;
+top: 109px;*/
+
+display: inline-block;
+
+
+border:1px solid gray;
+box-sizing:border-box;
+
+
+}
+
+
+.foriconx1{
+	position: relative;
+	width: 184px;
+	height: 164px;
+	/*border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+
+}
+
+.forbfg900{
+	position: relative;
+	width: 184px;
+	height: 120px;
+	/*border:2px solid #000000;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.per900{
+
+	position: relative;
+	/*left: 8.18%;
+right: 7.73%;*/
+/*top: 55.97%;
+bottom: 30.5%;*/
+
+/* Параграф жирный большой */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+/* or 111% */
+
+/*display: flex; */
+align-items: center;
+text-align: center; 
+
+color: #00000;
+margin-top: 0px;
+}
+
+.cena1{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+align-items: center;
+text-align: center;
+text-decoration-line: line-through;
+text-transform: uppercase;
+
+color: #A9A9A9;
+}
+
+.forbfg900 button{
+	position: relative;
+	width: 100%;
+height: 38px;
+margin-right: auto;
+margin-left: auto;
+
+background: #EE3643;
+}
+
+.c25500{
+	margin-top: 7px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+/*display: flex; */
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+
+.bfg300{
+	position: relative;
+width: 220px;
+height: 318px;
+/*margin-left: 16px;
+top: 109px;*/
+
+display: inline-block;
+
+
+border: 1px solid gray;
+	box-sizing:border-box;
+
+}
+
+.foriconx2{
+	position: relative;
+	width: 184px;
+	height: 164px; 
+/*	border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+
+
+}
+
+.foriconx2 div{
+
+	width: 144px;
+	height:128px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 20px;
+	
+
+}
+
+
+
+.forbfg300{
+	position: relative;
+	width: 184px;
+	height: 120px;
+	 /* border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.per300{
+
+	position: relative;
+	/*left: 8.18%;
+right: 7.73%;*/
+/*top: 55.97%;
+bottom: 30.5%;*/
+
+/* Параграф жирный большой */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+/* or 111% */
+
+/*display: flex; */
+align-items: center;
+text-align: center; 
+
+color: #00000;
+margin-top: 0px;
+}
+
+.cena2{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+align-items: center;
+text-align: center;
+text-decoration-line: line-through;
+text-transform: uppercase;
+
+color: #A9A9A9;
+}
+
+.forbfg300 button{
+	position: relative;
+	width: 100%;
+height: 38px;
+margin-right: auto;
+margin-left: auto;
+
+background: #EE3643;
+}
+
+.c15500{
+	margin-top: 7px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+/*display: flex; */
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.bfg600{
+	position: relative;
+width: 220px;
+height: 318px;
+/*margin-left: 16px;
+top: 109px; */
+
+display: inline-block;
+
+border:1px solid gray;
+	box-sizing:border-box;
+
+}
+
+
+.foriconx3{
+	position: relative;
+	width: 184px;
+	height: 164px;
+	/* border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+
+}
+
+.foriconx3 div{
+	position: relative;
+	width: 127px;
+	height: 112px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 20px;
+}
+
+.forbfg600{
+	position: relative;
+	width: 184px;
+	height: 120px;
+/* border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.per600{
+
+	position: relative;
+	/*left: 8.18%;
+right: 7.73%;*/
+/*top: 55.97%;
+bottom: 30.5%;*/
+
+/* Параграф жирный большой */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+/* or 111% */
+
+/*display: flex; */
+align-items: center;
+text-align: center; 
+
+color: #00000;
+margin-top: 0px;
+}
+
+.cena3{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+align-items: center;
+text-align: center;
+text-decoration-line: line-through;
+text-transform: uppercase;
+
+color: #A9A9A9;
+}
+
+.forbfg600 button{
+	position: relative;
+	width: 100%;
+height: 38px;
+margin-right: auto;
+margin-left: auto;
+
+background: #EE3643;
+}
+
+.c24500{
+	margin-top: 7px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+/*display: flex; */
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.bfg200{
+position: relative;
+width: 220px;
+height: 318px;
+/*left: 16px;
+top: 109px; */
+
+
+/*float: right;*/
+
+border:1px solid gray;
+	box-sizing:border-box;
+
+
+}
+
+.foriconx4{
+	position: relative;
+	width: 184px;
+	height: 164px;
+/*	border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+
+}
+
+.foriconx4 div{
+	position: relative;
+	width: 127px;
+	height: 112px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 20px;
+}
+
+
+.forbfg200{
+	position: relative;
+	width: 184px;
+	height: 120px;
+/*	border:2px solid #000000; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.per200{
+
+	position: relative;
+	/*left: 8.18%;
+right: 7.73%;*/
+/*top: 55.97%;
+bottom: 30.5%;*/
+
+/* Параграф жирный большой */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+/* or 111% */
+
+/*display: flex; */
+align-items: center;
+text-align: center; 
+
+color: #00000;
+margin-top: 0px;
+}
+
+.cena4{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+align-items: center;
+text-align: center;
+text-decoration-line: line-through;
+text-transform: uppercase;
+
+color: #A9A9A9;
+}
+
+.forbfg200 button{
+	position: relative;
+	width: 100%;
+height: 38px;
+margin-right: auto;
+margin-left: auto;
+
+background: #EE3643;
+}
+
+.c12500{
+	margin-top: 7px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+/* identical to box height, or 106% */
+
+/*display: flex; */
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+.korobka{
+	position: absolute;
+width: 940px;
+height: 419px;
+left: 130px;
+top: 1344px;
+}
+
+.korobka header{
+ position: relative;
+	width: 940px;
+height: 89px;
+background: #e0cfc2;
+}
+
+
+.qwerty{
+	position: relative;
+width: 367px;
+height: 30px;
+left: 28px;
+top: 29px;
+
+/* Заголовок 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #32425C;
+}
+
+.poiu{
+	position: relative;
+width: 192px;
+height: 38px;
+left: 734px;
+top: -5px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+	background: #EE3643;
+
+}
+
+.poiu div{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: white; 
+
+margin-left: auto;
+margin-right: auto;
+
+/*display: inline-block; */
+
+width: 192px;
+margin-top: auto;
+margin-bottom: auto;
+}
+.poiu:hover {
+background: #A62000;
+transition: 0.3s;
+}
+
+
+.line1{
+	position: relative;
+	width: 100%;
+	height: 145px;
+	margin-top: 20px;
+	
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.line2{
+	position: relative;
+	width: 100%;
+	height: 145px;
+	margin-top: 20px;
+	
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.bosch{
+	position: relative;
+width: 220px;
+height: 145px;
+/*background: green; */
+
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.bosch div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 126px;
+	height: 37px;
+	margin-left: 47px;
+	margin-top: 54px; 
+}
+
+
+
+
+.makita{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.makita div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 123px;
+	height: 40px;
+	margin-left: 48px;
+	margin-top: 50px; 
+}
+
+.dewalt{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+
+}
+
+.dewalt div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 136px;
+	height: 44px;
+	margin-left: 37px;
+	margin-top: 48px; 
+}
+
+
+.interskol{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.interskol div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 200px;
+	height: 67px;
+	margin-left: 9px;
+	margin-top: 34px; 
+}
+
+.hitachi{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.hitachi div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 169px;
+	height: 31px;
+	margin-left: 28px;
+	margin-top: 58px; 
+}
+
+.lg{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.lg div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 121px;
+	height: 73px;
+	margin-left: 48px;
+	margin-top: 35px; 
+}
+
+.aeg{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.aeg div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 151px;
+	height: 96px;
+	margin-left: 35px;
+	margin-top: 24px; 
+}
+
+.metabo{
+	position: relative;
+width: 220px;
+height: 145px;
+/* background: green; */
+border: 1px solid gray;
+	box-sizing: border-box; 
+}
+
+.metabo div{
+	position: relative;
+	/*border: 1px solid white;
+	box-sizing: border-box; */
+	width: 206px;
+	height:73px;
+	margin-left: 8px;
+	margin-top: 34px; 
+}
+
+font-face {
+	font-family: Cuprum;
+	src: url('cuprum.ttf');
+} 
+
+
+.services{
+position: absolute;
+width: 1200px;
+height: 522px;
+left: 0px;
+top: 1833px;
+	background-color: #F1F5F7;;
+}
+
+.servisy{
+	width: 100%;
+	height: 104px;
+	margin: 0px;
+
+}
+.servisy1{
+	position: relative;
+width: 107px;
+height: 30px;
+left: 130px;
+margin:0px;
+top: 64px;
+
+/* Заголовок 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+}
+
+.horosh{
+	position: relative;
+width: 100%;
+height: 88px;
+}
+.horosh1{
+	position: relative;
+width: 394px;
+height: 49px;
+left: 130px;
+top: 25px;
+
+/* Параграф 1 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000;
+}
+
+.d1{
+	position: relative;
+width: 240px;
+height: 61px;
+left: 130px;
+top: 70px;
+
+background: #32425C;
+box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+}
+
+.d1 div{
+ position: relative;
+ color: #ffff;
+ left: 22px;		
+
+}
+
+.d2{
+	position: relative;
+width: 240px;
+height: 61px;
+left: 130px;
+top: 70px;
+
+background: #32425C;
+box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+}
+
+.d2 div{
+ position: relative;
+ color: #ffff;
+ left: 22px;		
+
+}
+
+.d3{
+position: relative;
+width: 240px;
+height: 61px;
+left: 130px;
+top: 70px;
+
+background: #32425C;
+box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+/* Заголовок 4 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+}
+
+.d3 div{
+ position: relative;
+ color: #ffff;
+ left: 22px;
+	
+
+}
+
+
+
+
+	.d1:hover
+{
+	background:#ffff;
+	transition: 0.3s;
+}
+	.d1 a:hover
+	{
+		color: #32425C;
+	}
+
+.d2:hover{
+	background:#ffff;
+	transition: 0.3s;
+}
+
+.d3:hover{
+	background:#ffff;
+	transition: 0.3s;
+}
+
+
+
+
+/*Компания */
+
+.kontakty{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+position: absolute;
+width: 940px;
+height: 356px;
+left: 130px;
+top: 2425px;
+/*
+border:1px solid gray;
+box-sizing:border-box; */
+}
+
+
+.prblock{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	/*background: gray; */
+/*	float: left;*/
+
+	display: inline-block;
+}
+
+
+
+.komptex{
+	position: relative;
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.nastoyash{
+	position: relative;
+	margin-top: 24px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000
+}
+
+.spisok	{
+	list-style-type: none;
+	list-style-image: url(dlyali.png);
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: black;
+text-decoration: none;
+line-height: 2.2;
+
+}
+
+.spisok a{
+	color:black;
+}
+
+.podrobno{
+		position: relative;
+    width: 220px;
+    height: 38px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #EE3643;
+}
+
+.podrobno div{
+	font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+    width: 192px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.podrobno:hover{
+	background: #A62000;
+transition: 0.3s;
+}
+
+
+.lblock{
+	position: relative;
+	width: 300px;
+	height: 100%;
+	/*background: #32425C; */
+	display: inline-block;
+	
+}
+
+.lblock1{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #000000
+}
+
+.lblock2{
+	position: relative;
+	margin-top: 24px;
+	width: 181px;
+	height: 49px;
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000;
+}
+
+
+.lblock3 div{
+	position: relative;
+	width: 300px;
+	height: 158px;
+	
+	margin-top: 32px;
+}
+
+
+.lblock4{
+		position: relative;
+    width: 100%;
+    height: 38px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #EE3643;
+
+    margin-top: 25px;
+
+}
+
+.lblock4 div{
+	font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+    width: 192px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lblock4:hover{
+	background: #A62000;
+transition: 0.3s;
+}
+
+
+
+footer{
+	position: absolute;
+width: 1200px;
+height: 300px;
+left: 0px;
+top: 2851px;
+background:#32425C;
+}
+
+.footertop{
+	position: relative;
+	width: 100%;
+	height: 80px;
+/*	border:1px solid red; */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footertopr{
+position: relative;
+	width: 480px;
+	height: 100%;
+/*	background: gray;	*/
+
+
+}
+
+.footertopl{
+	position: relative;
+	width: 720px;
+	height: 35px;
+	margin-top: 40px;
+	margin-bottom: auto;
+/*	background: green;	*/
+	box-sizing: border-box;
+
+}
+
+.knopka{
+	width: 220px;
+	height: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background: #EE3643;
+box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.ultop{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-around;
+
+
+}
+.ultop a{
+
+	
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: #F1F5F7;
+}
+
+.ultop a:hover{
+	color:green;
+	transition: 0.3s;
+}
+
+
+
+
+.footermid{
+	position: relative;
+	width: 100%;
+	height: 120px;
+/*	border:1px solid red; */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footermidr{
+position: relative;
+	width: 480px;
+	height: 100%;
+	/*background: green;	*/
+text-align: center;
+
+}
+
+.footermidr div{
+	margin-left: 133px;
+	margin-top: 22px;
+	width: 321px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+color: #F3F7F9;
+text-align: center;
+}
+
+.footermidl{
+	margin-top: 40px;
+	position: relative;
+	width: 720px;
+	height: 40px;
+	/*background: gray; */
+
+
+}
+
+.ulmid{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.ulmid a{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFD180;
+
+}
+
+.footerbot{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100px;
+	background: #293449;
+}
+
+
+.footerbotr{
+
+	position: relative;
+	width: 532px;
+	height: 100%;
+/*	background: yellow; */
+}
+
+
+.footerbotm{
+
+	position: relative;
+	width: 136px;
+	height: 100%;
+
+}
+
+.footerbotl{
+
+	position: relative;
+	width:  532px;
+	height: 100%;
+/*	background: gray; */
+
+}
+
+.footericon{
+	position: relative;
+	width: 100%;
+	height: 44px;
+/*	background: gray; */
+	top: 28px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footericon a:hover{
+	opacity: 0.3;
+	transition: 0.3s;
+}
+
+.footerbotr div{
+	margin-left: 133px;
+	margin-top: 22px;
+	width: 321px;
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #F3F7F9;
+text-align: center;
+}
+
+.ulbot{
+		display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+
+
+}
+
+.ulbot p{
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.ulbot a{
+	color: #FFD180;
+}
+
+.techbot{
+	position: relative;
+	width: 128;
+	height: 23px;
+	margin-left: 41px;
+	top: 20px;
+}
+
+.servicebot{
+	position: relative;
+	width: 100%;
+	height: 330px;
+/*	background: white; */
+	display: flex;
+	flex-direction: row;
+
+}
+
+.servright{
+	position: relative;
+	width: 370px;
+	height: 330px;
+	/* background: gray; */
+}
+
+.ulserv{
+	list-style-type: none; 
+	width: 240px;
+	height: 60px;
+	padding-left: 130px;
+
+}
+
+
+.ulserv a:link, .ulserv a:visited{
+
+	width: 240px;
+	height: 60px;
+	text-decoration: none;
+	color: white;
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+
+	background-color: #32425C;
+	font-weight: bold
+
+
+}
+.ulserv a:hover{
+	background-color: #fff;
+	color: #32425C;
+	transition: 0.4s;
+}
+
+.ulserv a{
+	left: 20px;
+
+	box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+}
+
+
+.ulserv div{
+	margin-left: 20px;
+
+}
+
+.servleft{
+	position: relative;
+	width: 830px;
+	height: 100%;
+	/*background: white; */
+}
+
+
+.jsdostavka{
+	position: relative;
+	width: 100%;
+	height: 100%;
+/*	background: black; */
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.jsdostavka1{
+	position: relative;
+	width: 305px;
+	height: 100%;
+/*	background: gray; */
+
+	
+}
+
+.jsdostavka2{
+	position: relative;
+	width:468px;
+	height: 261px;
+
+/*	background: white; */
+}
+
+
+.pdost1{
+	position: relative;
+	height: 30px;
+width: 305px;
+left: 80px;
+top: 50px;
+
+
+/* Заголовок 2 */
+
+font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #32425C;
+}
+
+
+.pdost2{
+	position: relative;
+
+	height: 99px;
+width: 270px;
+margin-left: auto;
+margin-right: auto;
+top:90px;
+
+
+	font-family: Cuprum;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+
+
+color: #000000;
+}
+
+
+
+
+
+
+
