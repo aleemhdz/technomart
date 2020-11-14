@@ -12,9 +12,8 @@ header{
 	position: relative;
 width: 1200px; 
 height: 320px;
-	margin-left:auto;
-	margin-right:auto;
-
+margin-left: auto;
+margin-right: auto;
 background-color: #F1F5F7;;
 }
 
@@ -492,21 +491,14 @@ opacity: 0.3;
 
 }
 
-font-face {
-	font-family: Cuprum;
-	src: url('cuprum.ttf');
-} 
 
-a{
-	text-decoration: none;
-}
 .group11{
-	position: absolute;
+	position: realtive;
 width: 940px;
 height: 409px;
-left: 130px;
-top: 379px;
-
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .tipaheader{
@@ -526,7 +518,7 @@ top: 379px;
 	width: 620px;
 	height: 266px;
 
-	background: url(muzhik.png);
+	background: url(img/muzhik.png);
 	
 	clear: right;
 	display: inline-block;
@@ -1059,20 +1051,16 @@ color: #000;
 }
 
 
-font-face {
-	font-family: Cuprum;
-	src: url('cuprum.ttf');
-} 
 
 
 
 .obolochka{
-	position: absolute;
+	position: relative;
 width: 940px;
 height: 427px;
-left: 130px;
-top: 847px;
-
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 
 
 }
@@ -1656,11 +1644,12 @@ color: #FFFFFF;
 
 
 .korobka{
-	position: absolute;
+	position: relative;
 width: 940px;
 height: 419px;
-left: 130px;
-top: 1344px;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .korobka header{
@@ -1919,18 +1908,16 @@ border: 1px solid gray;
 	margin-top: 34px; 
 }
 
-font-face {
-	font-family: Cuprum;
-	src: url('cuprum.ttf');
-} 
+
 
 
 .services{
-position: absolute;
+position: relative;
 width: 1200px;
 height: 522px;
-left: 0px;
-top: 1833px;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 	background-color: #F1F5F7;;
 }
 
@@ -2109,11 +2096,12 @@ align-items: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-position: absolute;
+position: relative;
 width: 940px;
 height: 356px;
-left: 130px;
-top: 2425px;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 /*
 border:1px solid gray;
 box-sizing:border-box; */
@@ -2303,11 +2291,12 @@ transition: 0.3s;
 
 
 footer{
-	position: absolute;
+	position: relative;
 width: 1200px;
 height: 300px;
-left: 0px;
-top: 2851px;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 background:#32425C;
 }
 
